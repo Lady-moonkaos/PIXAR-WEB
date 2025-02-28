@@ -1,0 +1,249 @@
+*/* Reset CSS / Normalizar CSS */
+:root{
+    scroll-behavior: smooth;
+}
+*{
+ margin:0;
+ padding:0;
+ border: 0;
+ box-sizing: border-box;
+}
+li{
+ list-style: none;
+}
+a{
+ display: block;
+ color:inherit;
+ text-decoration: none;
+}
+p a{
+ display: inline;
+}
+h1 , h2 , h3 , h4 , h5 , h6 , strong , em , mark, pre, code{
+ font:inherit;
+}
+
+picture , img, video , iframe {
+ display: block;
+ max-width: 100%;
+ width: 100%;
+ height: initial;
+}
+svg{
+ display: block;
+ width: initial;
+ height: initial;
+ fill: currentColor;
+}
+
+form , input , select , textarea , button{
+ font:inherit;
+ background-color: transparent;
+ display: block;
+ color:inherit;
+}
+
+
+
+.cabezera {
+    width: 100%;
+    min-height: 200px;
+
+    margin: auto;
+    padding: 50px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.navegacion {
+    min-height: 20px;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content:space-between;
+    align-items: center;
+    gap:0
+}
+.item {
+    min-height: 10px;
+
+    margin: 10px;;
+    padding: 15px;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content:center;
+    align-items: center;
+    gap: 20px;
+}
+.imagen {
+    width: 100%;
+    min-height: 500px;
+    background-color: blue;
+
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.imagen .logo{
+    width: 90%;
+    max-width: 400px;
+    min-height: 150px;
+    background-color: crimson;
+}
+.principal{
+justify-items: center;
+
+}
+.columnas {
+    width: 90% ;
+    max-width: 1000px;
+    min-height: 200px;
+ 
+
+    padding: 50px 20px 50px 30px;
+    
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+}
+.cuadricula {
+    width: calc( 100% / 3 );
+    background-color: rgb(199, 219, 20);
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content:center;
+    align-items: center;
+    gap: 50px;
+}
+.cuadricula .item{
+    width: 300px;
+    min-height: 200px;
+    background-color: red;
+   
+    padding: 10px;
+}
+.nombre {
+    background-color: fuchsia;
+}
+.fecha {
+    width: 100%;
+    min-height: 50px;
+    background-color: rgb(39, 160, 25);
+
+    display: flex;
+    flex-flow: row-reverse;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.menuinferior {
+    background-color: rgb(222, 218, 218);
+    
+    width: 100%;
+    padding: 80px;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+.menuinferior .item{
+}
+.menurosa{
+    
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+.pixar {
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: start;
+    align-items: flex-start;
+    
+}
+.linea{
+    background-color: pink;
+    display: inline;
+    justify-content: center;
+    align-content: center;
+
+}
+.linea .item{
+   
+    display: block;
+    justify-content: center;
+    align-items: center;
+   
+}
+.peliculas{
+    display: block;
+    flex-flow: wrap;
+    justify-content: start;
+    align-items: start;
+}
+.titulo{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+
+   
+}
+.redes {
+   
+    margin: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.piepagina {
+ 
+
+    width: 100%;
+
+    margin: 20px;
+    padding: 20px;
+
+    display: grid;
+    grid-template-columns: 1fr 7fr;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+.politica{
+    background-color: rgb(195, 17, 47);
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-content: center;
+    gap: 20px;
+
+}
+.texto {
+
+    width: 300px;
+    background-color: rgb(226, 212, 212);
+    display: inline;
+    justify-content: center;
+    align-content: center;
+   
+}
